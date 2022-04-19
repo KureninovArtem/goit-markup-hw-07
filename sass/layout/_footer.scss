@@ -1,22 +1,29 @@
-.lower-logo {
-    color: var(--primary-color-light);
-}
-
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--first-background-color);
 }
 
-.address {
+.footer__logo_light {
+    color: var(--primary-color-light);
+}
+
+.footer__address {
     margin-top: 20px;
 }
 
-.contact-list-item {
+.footer__contact-list {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.footer__contact-list-item {
     margin-bottom: 9px;
 }
 
-.contact-list-link {
+.footer__contact-list-link {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -28,8 +35,8 @@
     }
 }
 
-.lower-contact-mail,
-.lower-contact-number {
+.footer__contact-mail,
+.footer__contact-number {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -41,19 +48,19 @@
     }
 }
 
-.footer-container {
+.footer__container {
     display: flex;
 }
 
-.footer-contact-container {
+.footer__contact-container {
     margin-right: 86px;
 }
 
-.footer-social-container {
+.footer__social-container {
     padding-top: 12px;
 }
 
-.footer-social-title {
+.footer__social-title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -63,15 +70,15 @@
     color: var(--primary-color-light);
 }
 
-.footer-social-list {
+.footer__social-list {
     display: flex;
 }
 
-.footer-social-list-item:not(:last-child) {
+.footer__social-list-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.footer-social-list-link {
+.footer__social-list-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -85,16 +92,16 @@
     }
 }
 
-.footer-social-list-icon {
+.footer__social-list-icon {
     fill: var(--primary-color-light);
 }
 
-.footer-form {
+.footer__form {
     margin-left: 93px;
     padding-top: 9px;
 }
 
-.footer-form-title {
+.footer__form-title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -104,11 +111,11 @@
     color: var(--primary-color-light);
 }
 
-.footer-form-wrapper {
+.footer__form-wrapper {
     display: flex;
 }
 
-.footer-form-input {
+.footer__form-input {
     display: block;
     width: 358px;
     height: 50px;
@@ -129,7 +136,7 @@
     }
 }
 
-.footer-form-btn {
+.footer__form-btn {
     display: flex;
     align-items: center;
     margin-left: 12px;
@@ -152,6 +159,6 @@
     }
 }
 
-.footer-form-icon {
+.footer__form-icon {
     margin-left: 10px;
 }
